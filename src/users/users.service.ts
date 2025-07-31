@@ -16,7 +16,7 @@ import { CreateUserDto } from './dtos/create-user.dto';
 import { Profile } from '../profile/profile.entity';
 import { ConfigService } from '@nestjs/config';
 import { PaginationProvider, Paginated } from '../common/pagination/pagination.provider';
-import { UserAlreadyExistsException } from 'CustomExceptions/user-already-exist.exception';
+import { UserAlreadyExistsException } from 'src/CustomExceptions/user-already-exist.exception';
 import { PaginationQueryDto } from 'src/common/pagination/dto/pagination-query.dto';
 import { HashingProvider } from 'src/auth/provider/hashing.provider';
 @Injectable()
